@@ -18,6 +18,7 @@ class Person extends REST_Controller{
    function save_post(){
         $person=json_decode(file_get_contents('php://input'),true);
         $this->person_model->insert($person);
-       $this->response($person, 200);
+       $respon['data']=$person;
+       $this->response($respon, 200);
    }
 }
