@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/toko';
+$config['base_url']	= 'http://localhost/rest-server-sample-php/';
 
 /*
 |--------------------------------------------------------------------------
